@@ -148,6 +148,6 @@ This list lives alongside my hands-on work:
 ## 🙏 Attribution
 
 Original list © 2018+ [Harshit Pandey](https://github.com/mailtoharshit) (MIT).  
-This curated version © 2025 [SunnyJayaRaju](https://github.com/SunnyJayaRaju) — same license, new voice.
+This curated version © 2026 [SunnyJayaRaju](https://github.com/SunnyJayaRaju) — same license, new voice.
 
 > *Curated with 🧠 by someone who learns by breaking things in staging first.*
