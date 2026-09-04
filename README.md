@@ -141,7 +141,7 @@ This list lives alongside my hands-on work:
 
 ## 📝 Changelog
 
-- **2025-09-04** — Initial rewrite: fork → personal curated list. Trimmed 300+ entries to ~40 tools I've actually used.
+- **2026-09-04** — Initial rewrite: fork → personal curated list. Trimmed 300+ entries to ~40 tools I've actually used.
 
 ---
 
