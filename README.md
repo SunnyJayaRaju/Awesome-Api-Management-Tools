@@ -1,10 +1,17 @@
 # 🌐 Awesome API Management Tools
 
+## At a glance
+
+A personal, opinionated list of API management tools I have actually evaluated, used in production or keep coming back to. Forked from [mailtoharshit/Awesome-Api-Management-Tools](https://github.com/mailtoharshit/Awesome-Api-Management-Tools) and maintained as my own curated reference.
+
 ![Status](https://img.shields.io/badge/Status-Active_Curation-brightgreen?style=for-the-badge&logo=github&logoColor=white)
 ![Maintainer](https://img.shields.io/badge/Maintainer-SunnyJayaRaju-orange?style=for-the-badge)
 
-> **A personal, opinionated list of API management tools I've actually evaluated, used in production, or keep coming back to.**  
-> This started as a fork of [mailtoharshit/Awesome-Api-Management-Tools](https://github.com/mailtoharshit/Awesome-Api-Management-Tools) — now maintained as my own curated reference.
+```bash
+http GET :8080/api/users
+deck sync
+newman run collection.json -e env.json --reporters cli,junit
+```
 
 ---
 
@@ -19,6 +26,8 @@ I needed a shorter list: tools I've **touched**, **trust**, and **would recommen
 
 ## 🗂️ Table of Contents
 
+- [At a glance](#at-a-glance)
+- [🎯 Why This Exists](#-why-this-exists)
 - [🚪 API Gateways & Management Platforms](#-api-gateways--management-platforms)
 - [📐 API Design & Specification](#-api-design--specification)
 - [🧪 Testing & Debugging](#-testing--debugging)
@@ -28,6 +37,9 @@ I needed a shorter list: tools I've **touched**, **trust**, and **would recommen
 - [📊 Monitoring & Observability](#-monitoring--observability)
 - [⚙️ CLI & Automation](#%EF%B8%8F-cli--automation)
 - [🔗 Connected Repos](#-connected-repos)
+- [🧭 How I Evaluate Tools](#-how-i-evaluate-tools)
+- [📝 Changelog](#-changelog)
+- [🙏 Attribution](#-attribution)
 
 ---
 
@@ -115,6 +127,16 @@ I needed a shorter list: tools I've **touched**, **trust**, and **would recommen
 | **[deck](https://developer.konghq.com/deck/)** | Kong Declarative Config | `deck sync` = GitOps for Kong. Diff before apply, backup/restore, drift detection. |
 | **[Newman](https://github.com/postmanlabs/newman)** | Postman CLI | Run collections in CI. `newman run collection.json -e env.json --reporters cli,junit` → JUnit XML for pipeline gates. |
 | **[jq](https://stedolan.github.io/jq/)** | JSON Processor | `curl ... | jq '.data[] | select(.status=="active")'` — the universal API data knife. |
+
+Verified locally with sample input:
+
+```bash
+printf '{"data":[{"id":1,"status":"active"},{"id":2,"status":"idle"}]}' | jq '.data[] | select(.status=="active") | .id'
+```
+
+```text
+1
+```
 
 ---
 
