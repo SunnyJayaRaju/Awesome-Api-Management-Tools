@@ -48,7 +48,7 @@ I needed a shorter list: tools I've **touched**, **trust**, and **would recommen
 |------|----------|---------|
 | **[OpenAPI 3.x](https://spec.openapis.org/oas/v3.1.0)** | Spec Standard | The lingua franca. Write once, generate clients/docs/mocks/tests. Use **Spectral** for linting (see below). |
 | **[Postman](https://www.postman.com/)** | Design + Client | Collection format is portable. Good for exploratory testing and sharing runnable examples with non-engineers. |
-| **[Stoplight Studio](https://stoplight.io/studio)** | Visual Editor | Best visual OpenAPI editor I've found. Git-backed, renders beautifully, catches errors as you type. |
+| **[Stoplight Studio](https://stoplight.io/solutions)** | Visual Editor | Best visual OpenAPI editor I've found. Git-backed, renders beautifully, catches errors as you type. |
 | **[Apigee API Hub](https://cloud.google.com/apigee/api-hub/docs/overview)** | Registry | Central catalog for specs, versions, deployments. Integrates with Apigee runtime — single source of truth. |
 
 ---
@@ -79,7 +79,7 @@ I needed a shorter list: tools I've **touched**, **trust**, and **would recommen
 | Tool | Category | My Take |
 |------|----------|---------|
 | **[Redoc](https://redocly.github.io/redoc/)** | Reference Docs | Clean, three-panel output from OpenAPI. Customizable theming, search, code samples in 10+ languages. |
-| **[Redocly CLI](https://redocly.com/docs/cli/)** | Docs Pipeline | Bundle multi-file specs, lint, preview, deploy. The `preview-docs` command is my local feedback loop. |
+| **[Redocly CLI](https://redocly.com/docs/cli)** | Docs Pipeline | Bundle multi-file specs, lint, preview, deploy. The `preview-docs` command is my local feedback loop. |
 | **[Apigee Developer Portal (Drupal / Integrated)](https://cloud.google.com/apigee/api-platform/docs/publish/overview)** | Full Portal | If you're on Apigee, the integrated portal saves wiring. Custom domains, auth, monetization baked in. |
 | **[Slate](https://github.com/slatedocs/slate)** | Static Docs | Markdown-driven, three-column layout. Used for internal API guides — versioned in repo, deployed via Pages. |
 
@@ -112,7 +112,7 @@ I needed a shorter list: tools I've **touched**, **trust**, and **would recommen
 | Tool | Category | My Take |
 |------|----------|---------|
 | **[apigeecli](https://github.com/apigee/apigeecli)** | Apigee CLI | Deploy proxies, manage envs, KVMs, developers, products — all from terminal. Replaces `apigeetool` and `maven` plugin. |
-| **[deck](https://docs.konghq.com/deck/)** | Kong Declarative Config | `deck sync` = GitOps for Kong. Diff before apply, backup/restore, drift detection. |
+| **[deck](https://developer.konghq.com/deck/)** | Kong Declarative Config | `deck sync` = GitOps for Kong. Diff before apply, backup/restore, drift detection. |
 | **[Newman](https://github.com/postmanlabs/newman)** | Postman CLI | Run collections in CI. `newman run collection.json -e env.json --reporters cli,junit` → JUnit XML for pipeline gates. |
 | **[jq](https://stedolan.github.io/jq/)** | JSON Processor | `curl ... | jq '.data[] | select(.status=="active")'` — the universal API data knife. |
 
