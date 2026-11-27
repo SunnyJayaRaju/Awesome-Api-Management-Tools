@@ -1,23 +1,19 @@
 # 🌐 Awesome API Management Tools
 
-## At a glance
+## 📌 At A Glance
 
 A personal, opinionated list of API management tools I have actually evaluated, used in production or keep coming back to. Forked from [mailtoharshit/Awesome-Api-Management-Tools](https://github.com/mailtoharshit/Awesome-Api-Management-Tools) and maintained as my own curated reference.
 
-![Status](https://img.shields.io/badge/Status-Active_Curation-brightgreen?style=for-the-badge&logo=github&logoColor=white)
-![Maintainer](https://img.shields.io/badge/Maintainer-SunnyJayaRaju-orange?style=for-the-badge)
-
-```bash
-http GET :8080/api/users
-deck sync
-newman run collection.json -e env.json --reporters cli,junit
-```
+<p align="center">
+  <a href="https://github.com/SunnyJayaRaju/Awesome-Api-Management-Tools"><img alt="Status: Active Curation" src="https://img.shields.io/badge/Status-Active_Curation-brightgreen?style=flat-square&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/SunnyJayaRaju"><img alt="Maintainer: SunnyJayaRaju" src="https://img.shields.io/badge/Maintainer-SunnyJayaRaju-orange?style=flat-square" /></a>
+</p>
 
 ---
 
 ## 🎯 Why This Exists
 
-The original awesome list is exhaustive — 300+ tools across every category. That's great for discovery, terrible for decisions.  
+The original awesome list is exhaustive — 300+ tools across every category. That's great for discovery, terrible for decisions.<br />
 I needed a shorter list: tools I've **touched**, **trust**, and **would recommend to a teammate**.
 
 > **"If I've used it in anger (prod, staging, or a real eval), it's here. If not, it's not."**
@@ -26,20 +22,20 @@ I needed a shorter list: tools I've **touched**, **trust**, and **would recommen
 
 ## 🗂️ Table of Contents
 
-- [At a glance](#at-a-glance)
-- [🎯 Why This Exists](#-why-this-exists)
-- [🚪 API Gateways & Management Platforms](#-api-gateways--management-platforms)
-- [📐 API Design & Specification](#-api-design--specification)
-- [🧪 Testing & Debugging](#-testing--debugging)
-- [🧹 Linting & Governance](#-linting--governance)
-- [📚 Documentation & Portals](#-documentation--portals)
-- [🔐 Security & Auth](#-security--auth)
-- [📊 Monitoring & Observability](#-monitoring--observability)
-- [⚙️ CLI & Automation](#%EF%B8%8F-cli--automation)
-- [🔗 Connected Repos](#-connected-repos)
-- [🧭 How I Evaluate Tools](#-how-i-evaluate-tools)
-- [📝 Changelog](#-changelog)
-- [🙏 Attribution](#-attribution)
+- [At A Glance](#-at-a-glance)
+- [Why This Exists](#-why-this-exists)
+- [API Gateways & Management Platforms](#-api-gateways--management-platforms)
+- [API Design & Specification](#-api-design--specification)
+- [Testing & Debugging](#-testing--debugging)
+- [Linting & Governance](#-linting--governance)
+- [Documentation & Portals](#-documentation--portals)
+- [Security & Auth](#-security--auth)
+- [Monitoring & Observability](#-monitoring--observability)
+- [CLI & Automation](#%EF%B8%8F-cli--automation)
+- [Connected Repos](#-connected-repos)
+- [How I Evaluate Tools](#-how-i-evaluate-tools)
+- [Changelog](#-changelog)
+- [Attribution](#-attribution)
 
 ---
 
@@ -169,7 +165,7 @@ This list lives alongside my hands-on work:
 
 ## 🙏 Attribution
 
-Original list © 2018+ [Harshit Pandey](https://github.com/mailtoharshit) (MIT).  
+Original list © 2018+ [Harshit Pandey](https://github.com/mailtoharshit) (MIT).<br />
 This curated version © 2026 [SunnyJayaRaju](https://github.com/SunnyJayaRaju) — same license, new voice.
 
 > *Curated with 🧠 by someone who learns by breaking things in staging first.*
